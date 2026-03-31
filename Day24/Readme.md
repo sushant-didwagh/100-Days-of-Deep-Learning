@@ -12,5 +12,17 @@ firstly userstand why we initialize weights
       weights never changes no convergence
       not able to capture non-linear data act like sigle perceptron
       discussing today
+   
+  2. Non-zero constant initialization -
+     act like single preceptron never capture non-linerity
 
-  2. Non-zero initialization wight initialization- discussing tomarrow 
+  3.  rendom initialization with small value
+     vanishing radient problem if network is so deep
+  5.  rendom initialization with large value
+     saturation occure lead to slow training
+     vanishing/exploding gradient problem
+
+
+today i understand which some initialization cases which never use.
+
+tomarrow i will learn which technique is best for initialzation of weights.
